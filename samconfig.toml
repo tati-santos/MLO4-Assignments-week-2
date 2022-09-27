@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "TS-Week2-Assigment-FaceSentiment"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-pcatkpeq1n2w"
+s3_prefix = "TS-Week2-Assigment-FaceSentiment"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["TSFaceSentimentFunction=681261969843.dkr.ecr.us-east-1.amazonaws.com/tsweek2assigmentfacesentiment3b37f06f/tsfacesentimentfunction768d5c53repo"]
+disable_rollback = true
